@@ -805,7 +805,6 @@ body{scroll-behavior:smooth}
 <button class="quick-action-btn clear-search-btn" onclick="clearGlobalSearch()" type="button">مسح البحث</button>
 <button class="quick-action-btn" onclick="openSceneIndexDrawer()" type="button">فهرس المشاهد</button>
 </div>
-
 <label class="shortcut-card" for="sceneShortcutSelect">
 <select class="shortcut-select" id="sceneShortcutSelect"><option value="">اذهب إلى مشهد...</option><option value="scene-قرار-الانتقام">المشهد 1 — قرار الانتقام</option><option value="scene-اتفاق-وحشي">المشهد 2 — اتفاق وحشي</option><option value="scene-solo-هند-بنت-عتبة">المشهد 3 — هند بنت عتبة — لقطة منفردة</option><option value="scene-solo-وحشي-بن-حرب">المشهد 4 — وحشي بن حرب — لقطة منفردة</option><option value="scene-تجهيز-جيش-قريش">المشهد 5 — تجهيز جيش قريش</option><option value="scene-solo-أبو-سفيان-بن-حرب">المشهد 6 — أبو سفيان بن حرب — لقطة منفردة</option><option value="scene-solo-جيش-قريش">المشهد 7 — جيش قريش — لقطة منفردة</option><option value="scene-نساء-خلف-الجيش">المشهد 8 — نساء خلف الجيش</option><option value="scene-المدينة-المنورة-الشوارع-الضيقة">المشهد 9 — المدينة المنورة – الشوارع الضيقة</option><option value="scene-مجلس-الشورى-داخل-المدينة">المشهد 10 — مجلس الشورى – داخل المدينة</option><option value="scene-تراجع-الشباب">المشهد 11 — تراجع الشباب</option><option value="scene-القرار-النهائي">المشهد 12 — القرار النهائي</option><option value="scene-جيش-المسلمين-كامل">المشهد 13 — جيش المسلمين كامل</option><option value="scene-انسحاب-عبد-الله-بن-أبي">المشهد 14 — انسحاب عبد الله بن أبي</option><option value="scene-جيش-المسلمين-بعد-الانسحاب">المشهد 15 — جيش المسلمين بعد الانسحاب</option><option value="scene-جبل-أُحد">المشهد 16 — جبل أُحد</option><option value="scene-خطة-المعركة">المشهد 17 — خطة المعركة</option><option value="scene-جبل-الرماة-عينين">المشهد 18 — جبل الرماة (عينين)</option><option value="scene-تسليم-السيف-عربي-مستقيم-لأبي-دجانة">المشهد 19 — تسليم السيف عربي مستقيم لأبي دجانة</option><option value="scene-المبارزات-الأولى">المشهد 20 — المبارزات الأولى</option><option value="scene-بداية-الاشتباك">المشهد 21 — بداية الاشتباك</option><option value="scene-تفوق-المسلمين">المشهد 22 — تفوق المسلمين</option><option value="scene-حمزة-قبل-الاستشهاد">المشهد 23 — حمزة قبل الاستشهاد</option><option value="scene-مصعب-بن-عمير-واللواء">المشهد 24 — مصعب بن عمير واللواء</option><option value="scene-الغنائم">المشهد 25 — الغنائم</option><option value="scene-نزول-الرماة">المشهد 26 — نزول الرماة</option><option value="scene-خالد-بن-الوليد">المشهد 27 — خالد بن الوليد</option><option value="scene-القضاء-على-الرماة">المشهد 28 — القضاء على الرماة</option><option value="scene-الكماشة">المشهد 29 — الكماشة</option><option value="scene-استشهاد-حمزة">المشهد 30 — استشهاد حمزة</option><option value="scene-سقوط-اللواء-واستشهاد-مصعب">المشهد 31 — سقوط اللواء واستشهاد مصعب</option><option value="scene-الإشاعة">المشهد 32 — الإشاعة</option><option value="scene-سعد-بن-أبي-وقاص">المشهد 33 — سعد بن أبي وقاص</option><option value="scene-أم-عمارة">المشهد 34 — أم عمارة</option><option value="scene-الثبات-بعد-الإصابة">المشهد 35 — الثبات بعد الإصابة</option><option value="scene-أنس-بن-النضر">المشهد 36 — أنس بن النضر</option><option value="scene-حنظلة">المشهد 37 — حنظلة</option></select>
 </label>
@@ -952,16 +951,16 @@ body{scroll-behavior:smooth}
 <h2>المشاهد</h2>
 <p>نفس نظام الموقع الأصلي بالكامل، والمشاهد معروضة بالتتابع كما كانت، مع تحديث كل المعلومات إلى غزوة الخندق وبنفس ترتيب القصة الكاملة حرفيًا.</p>
 <div class="drive-scene-tools">
-  <div class="drive-scene-actions">
-    <button class="drive-link-btn" type="button" onclick="window.open('https://drive.google.com/drive/folders/1HKyV7IacA_3hQ3XGSYQU9LUqgO1x2Udr?usp=sharing','_blank')">فتح Google Drive</button>
-  </div>
-  <div class="drive-preview-wrap">
-    <div class="drive-preview-head">
-      <strong>معاينة الملفات / الصور</strong>
-      <span>يمكنك فتح اللينك مباشرة من الزر بالأعلى</span>
-    </div>
-    <iframe class="drive-preview-frame" src="https://drive.google.com/embeddedfolderview?id=1HKyV7IacA_3hQ3XGSYQU9LUqgO1x2Udr#grid"></iframe>
-  </div>
+<div class="drive-scene-actions">
+<button class="drive-link-btn" onclick="window.open('https://drive.google.com/drive/folders/1HKyV7IacA_3hQ3XGSYQU9LUqgO1x2Udr?usp=sharing','_blank')" type="button">فتح Google Drive</button>
+</div>
+<div class="drive-preview-wrap">
+<div class="drive-preview-head">
+<strong>معاينة الملفات / الصور</strong>
+<span>يمكنك فتح اللينك مباشرة من الزر بالأعلى</span>
+</div>
+<iframe class="drive-preview-frame" src="https://drive.google.com/embeddedfolderview?id=1HKyV7IacA_3hQ3XGSYQU9LUqgO1x2Udr#grid"></iframe>
+</div>
 </div>
 </article>
 </section>
@@ -996,7 +995,7 @@ body{scroll-behavior:smooth}
 <section><h3>اللبس</h3><ul><li>لباس عربي قبلي، عباءات، عمائم، دون استعراض قتالي كامل.</li></ul></section>
 <section class="full"><h3>الوضعية</h3><p>وفد بني النضير في وضع تفاوض وتحريض، أحدهم متقدم بجسده ويده في إشارة إقناع، بينما رجال قريش في وضع استماع وحسم.</p></section>
 <section><h3>البيئة</h3><p>داخل القصر الإسلامي الضخم، وخلف التماثيل معلم عملاق يمثل خيبر/حصون اليهود كرمز بصري لبداية الخطة.</p></section>
-<section><h3>التعريف</h3><p>لا توجد شخصية منفردة رئيسية — المشهد جماعي.</p></section>
+<section><h3>التعريف</h3><p>التحريض</p></section>
 </div>
 </article>
 </section>
@@ -1068,7 +1067,7 @@ body{scroll-behavior:smooth}
 <section><h3>اللبس</h3><ul><li>سلمان بلباس عربي بسيط، والآخرون بملابس مجلس وشورى.</li></ul></section>
 <section class="full"><h3>الوضعية</h3><p>سلمان متقدم قليلًا عن الحلقة، إحدى يديه تشير نحو الأرض أو الخريطة، في وضع يشرح الفكرة بوضوح.</p></section>
 <section><h3>البيئة</h3><p>داخل القصر، وخلف التماثيل مخطط عملاق للأرض المفتوحة شمال المدينة متجسد كمعلم تضاريسي داخل القاعة.</p></section>
-<section><h3>التعريف</h3><p><span class="character-ref" data-character-target="character-سلمان-الفارسي" tabindex="0">سلمان الفارسي</span></p></section>
+<section><h3>التعريف</h3><p>الفكرة العبقرية من سلمان الفارسي</p></section>
 </div>
 </article>
 </section>
@@ -1104,7 +1103,7 @@ body{scroll-behavior:smooth}
 <section><h3>اللبس</h3><ul><li>ملابس عربية عملية، أدوات حفر، معاول، أثواب مشمرة عمليًا.</li></ul></section>
 <section class="full"><h3>الوضعية</h3><p>التماثيل موزعة على طول مساحة الحفر، بعضهم يحفر، بعضهم يحمل التراب، في تكوين جماعي متماسك.</p></section>
 <section><h3>البيئة</h3><p>داخل القصر الإسلامي المغلق، والخلفية معلم عملاق يمثل الخندق نفسه ممتدًا كشق هائل في الأرض داخل القاعة.</p></section>
-<section><h3>التعريف</h3><p><span class="character-ref" data-character-target="character-سلمان-الفارسي" tabindex="0">سلمان الفارسي</span></p></section>
+<section><h3>التعريف</h3><p>حفر الخندق</p></section>
 </div>
 </article>
 </section>
@@ -1283,7 +1282,7 @@ body{scroll-behavior:smooth}
 <section><h3>اللبس</h3><ul><li>ثياب بسيطة، أجساد منكمشة من شدة الحال.</li></ul></section>
 <section class="full"><h3>الوضعية</h3><p>المقاتلون في أوضاع تعب واضحة، بعضهم يمسك بطنه، وبعضهم جالس أو واقف بثقل شديد.</p></section>
 <section><h3>البيئة</h3><p>داخل القصر، خلفهم فراغ قاسٍ وخندق بعيد ومعالم قليلة لزيادة الإحساس بالقسوة.</p></section>
-<section><h3>التعريف</h3><p>لا توجد شخصية منفردة رئيسية — المشهد جماعي.</p></section>
+<section><h3>التعريف</h3><p>آثار الحصار على المسلمين</p></section>
 </div>
 </article>
 </section>
@@ -1427,7 +1426,7 @@ body{scroll-behavior:smooth}
 <section><h3>اللبس</h3><ul><li>لباس محارب مسلم، سلاح بسيط، مشهد اشتباك محدود.</li></ul></section>
 <section class="full"><h3>الوضعية</h3><p>سعد في لحظة تلقي الإصابة أو ما بعدها مباشرة، مع بقاء وقاره وثباته ظاهرين.</p></section>
 <section><h3>البيئة</h3><p>داخل القصر، والخندق خلفه واضح ومعه عناصر اشتباك محدودة.</p></section>
-<section><h3>التعريف</h3><p><span class="character-ref" data-character-target="character-سعد-بن-معاذ" tabindex="0">سعد بن معاذ</span></p></section>
+<section><h3>التعريف</h3><p>إصابة سعد بن معاذ</p></section>
 </div>
 </article>
 </section>
@@ -1463,7 +1462,7 @@ body{scroll-behavior:smooth}
 <section><h3>اللبس</h3><ul><li>عناصر جيش الأحزاب في حالة اضطراب.</li></ul></section>
 <section class="full"><h3>الوضعية</h3><p>التماثيل والخيام في حالة فوضى، اتجاهات متعددة، إحساس بأن كل شيء ينزع من مكانه.</p></section>
 <section><h3>البيئة</h3><p>داخل القصر، مع معسكر عملاق وخيام متطايرة بعنف لكن كلها مدمجة داخل العمارة.</p></section>
-<section><h3>التعريف</h3><p><span class="character-ref" data-character-target="character-جيش-الأحزاب" tabindex="0">جيش الأحزاب</span></p></section>
+<section><h3>التعريف</h3><p>التدخل الإلهي – الريح</p></section>
 </div>
 </article>
 </section>
@@ -1534,7 +1533,7 @@ body{scroll-behavior:smooth}
 <section><h3>اللبس</h3><ul><li>هيئة وقار وانتصار بلا صخب احتفالي مبالغ فيه.</li></ul></section>
 <section class="full"><h3>الوضعية</h3><p>التماثيل في وضع ثبات وتأمل بعد زوال الخطر، لا احتفال صاخب.</p></section>
 <section><h3>البيئة</h3><p>داخل القصر، معالم المدينة ثابتة، والخندق حاضر لكن المعسكر اختفى، في إحساس نهاية فصل كامل.</p></section>
-<section><h3>التعريف</h3><p>لا توجد شخصية منفردة رئيسية — المشهد جماعي.</p></section>
+<section><h3>التعريف</h3><p>نتائج الغزوة</p></section>
 </div>
 </article>
 </section></main>
@@ -13089,16 +13088,14 @@ museum-quality ancient sandstone statues photographed in real light
 
 If the result looks like clay, mud, wax, plastic, or soft sculpting → REJECT and regenerate.
 </div>
-
 <div aria-label="تنقل الموبايل" class="mobile-nav">
-  <div class="mobile-nav-inner">
-    <button class="mobile-nav-btn active" data-view="story" onclick="return forceMobileView(event, 'story')" type="button">القصة</button>
-    <button class="mobile-nav-btn" data-view="scenario" onclick="return forceMobileView(event, 'scenario')" type="button">المشاهد</button>
-    <button class="mobile-nav-btn" data-view="script" onclick="return forceMobileView(event, 'script')" type="button">السكريبت</button>
-    <button class="mobile-nav-btn" data-view="characters" onclick="return forceMobileView(event, 'characters')" type="button">الشخصيات</button>
-    <button class="mobile-nav-btn" data-view="prompts" onclick="return forceMobileView(event, 'prompts')" type="button">البرومبتات</button>
-    <button class="mobile-nav-btn" data-view="sources" onclick="return forceMobileView(event, 'sources')" type="button">المصادر</button>
-  </div>
+<div class="mobile-nav-inner">
+<button class="mobile-nav-btn active" data-view="story" onclick="return forceMobileView(event, 'story')" type="button">القصة</button>
+<button class="mobile-nav-btn" data-view="scenario" onclick="return forceMobileView(event, 'scenario')" type="button">المشاهد</button>
+<button class="mobile-nav-btn" data-view="script" onclick="return forceMobileView(event, 'script')" type="button">السكريبت</button>
+<button class="mobile-nav-btn" data-view="characters" onclick="return forceMobileView(event, 'characters')" type="button">الشخصيات</button>
+<button class="mobile-nav-btn" data-view="prompts" onclick="return forceMobileView(event, 'prompts')" type="button">البرومبتات</button>
+<button class="mobile-nav-btn" data-view="sources" onclick="return forceMobileView(event, 'sources')" type="button">المصادر</button>
 </div>
-
+</div>
 </body></html>
